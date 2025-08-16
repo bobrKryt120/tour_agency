@@ -1,0 +1,302 @@
+body {
+    margin: 0px;
+    font-family: courier;
+    background-color: black;
+}
+
+header {
+    border-bottom: 1px solid white;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    z-index: 5;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign_up, .sign_in {
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    box-shadow: 3px 3px 0 0 white;
+}
+
+.sign_up:hover, .sign_in:hover {
+    transition: 0.5s;
+    text-shadow: 1px 1px 0  #A80000;
+}
+
+.se {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 0 25px 0 25px;
+    height: 40px;
+    box-shadow: 3px 3px 0 0 white;
+    width: 50%;
+}
+
+.search_img {
+    height: 20px;
+    margin-left: 10px;
+}
+
+.search {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-top: 1px solid white;
+}
+
+.button {
+    text-decoration: none;
+}
+
+.button:hover {
+    text-shadow: 1px 1px 0 #A80000;
+    transition: 0.5s;
+}
+
+main {
+    position: relative;
+    top: 200px;
+}
+
+.sub_title, .post_title {
+    font-size: 28px;
+    text-align: center;
+}
+
+.title {
+    font-size: 64px;
+    text-align: center;
+    text-shadow: 5px 5px 0 #A80000;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 25px 0 25px;
+}
+
+.pages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.japan {
+    font-size: 48px;
+    text-shadow: 3px 3px 0 #A80000;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 100%;
+    background: url("https://learn.logikaschool.com/uploads/student/5102028/689e388084ad9.png");
+    background-size: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.ukraine {
+    font-size: 48px;
+    text-shadow: 3px 3px 0 #A80000;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 100%;
+    background: url("https://learn.logikaschool.com/uploads/student/5102028/689f46e6da3e6.png");
+    background-size: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.france {
+    font-size: 48px;
+    text-shadow: 3px 3px 0 #A80000;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 100%;
+    background: url("https://learn.logikaschool.com/uploads/student/5102028/689f5217b0294.png");
+    background-size: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.pa {
+    display: flex;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 415px;
+    border-right: 1px solid white;
+    padding: 10px;
+}
+
+.page:first-child {
+    border-left: 1px solid white;
+}
+
+.page h2 {
+    font-size: 32px;
+    margin: 0 auto 0 auto;
+}
+
+.ma {
+    position: relative;
+    top: 20px;
+}
+
+.matext {
+    position: relative;
+    top: 26px;
+}
+
+.it {
+    position: relative;
+    top: -50px;
+}
+
+.zu {
+    position: relative;
+    top: -70px;
+}
+
+.page p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.page img {
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: black;
+    z-index: 3;
+}
+
+.page img:hover {
+    transform: scale(1.75);
+    transition: 0.5s;
+}
+
+.comments {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.comments a {
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.comments a:hover {
+    text-shadow: 3px 3px 0 #A80000;
+    transition: 0.5s;
+}
+
+.write {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    box-shadow: 5px 5px 0 white;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.write p {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.write p:hover {
+    text-shadow: 1px 1px 0 #A80000;
+    transition: 0.5s;
+}
+
+.write img {
+    height: 25px;
+}
+
+.sin {
+    position: absolute;
+    top: 4250px;
+    background: url("https://learn.logikaschool.com/uploads/student/5102028/68a06a765c637.png") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    z-index: 4
+}
+
+.sin p {
+    position: relative;
+    top: 400px;
+    left: 100px;
+    font-size: 48px;
+}
+
+.sin a {
+    text-decoration: none;
+}
+
+.sin a:hover {
+    text-shadow: 2px 2px 0 #A80000;
+    transition: 0.5s;
+}
+
+footer {
+    position: relative;
+    top: 350px;
+    height: 300px;
+    border-top: 1px solid white;
+}
+
+footer p {
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 2px 2px 0 #A80000;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer a {
+    font-size: 28px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-shadow: 2px 2px 0 #A80000;
+    transition: 0.5s;
+}
+
+.logo {
+    height: 100px;
+}
+
+p, h1, h2, h3, a {
+    color: white;
+}
+
